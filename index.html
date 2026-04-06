@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Mobile Website</title>
+
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #007BFF;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      background: #0056b3;
+      padding: 0.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .container {
+      padding: 1rem;
+    }
+
+    .card {
+      background: #fff;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #007BFF;
+      color: white;
+      margin-top: 1rem;
+    }
+
+    /* Responsive tweaks */
+    @media (min-width: 600px) {
+      nav {
+        justify-content: center;
+        gap: 2rem;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>My Website</h1>
+    <p>Mobile-Friendly Template</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <h2>Welcome</h2>
+      <p>This is a simple mobile-first website layout.</p>
+    </div>
+
+    <div class="card">
+      <h2>Content</h2>
+      <p>Add your content here. It will automatically adjust for mobile screens.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 My Website</p>
+  </footer>
+
+</body>
+</html>
