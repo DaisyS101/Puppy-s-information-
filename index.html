@@ -3,106 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Mobile Website</title>
-
-  <style>
-    /* Reset some default styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      line-height: 1.6;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-
-    header {
-      background: #007BFF;
-      color: #fff;
-      padding: 1rem;
-      text-align: center;
-    }
-
-    nav {
-      display: flex;
-      justify-content: space-around;
-      background: #0056b3;
-      padding: 0.5rem;
-    }
-
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 1rem;
-    }
-
-    .container {
-      padding: 1rem;
-    }
-
-    .card {
-      background: #fff;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #007BFF;
-      color: white;
-      margin-top: 1rem;
-    }
-
-    /* Responsive tweaks */
-    @media (min-width: 600px) {
-      nav {
-        justify-content: center;
-        gap: 2rem;
-      }
-
-      .container {
-        max-width: 600px;
-        margin: auto;
-      }
-    }
-  </style>
+  <title>Pup Palace Adoption Center</title>
+  <link rel="stylesheet" href="styles.css">
+<!-- it got too crowded here so i had to make sure it all seperate so it can seen better and adjusted...the orignal way that was done was with lots of spaces! but even then it takes a very long while to scrol or navigate unforantely.and apparently I cant spell!
+ I just realized i forgot to put info! or at least more information about the dog breeds-->
+  
 </head>
 
 <body>
 
   <header>
-    <h1>My Website</h1>
-    <p>Mobile-Friendly Template</p>
+    <h1>🐾 Pup Palace Adoption Center 🐾</h1>
+    <p>Finding forever homes for furry friends</p>
   </header>
 
   <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="pets.html">Available Dog Breeds</a>
+    <a href="process.html">Adoption Process</a>
+    <a href="contact.html">Contact</a>
   </nav>
 
+
+
+
+  
+
+
+
   <div class="container">
-    <div class="card">
-      <h2>Welcome</h2>
-      <p>This is a simple mobile-first website layout.</p>
+    <div class="hero">
+      <h2>Welcome to Pup Palace!</h2>
+      <p>Every pet deserves a loving home. Come meet our adorable animals waiting for their forever families.</p>
+      <a href="pets.html" class="cta-button">Browse Dog Breeds</a>
     </div>
 
     <div class="card">
-      <h2>Content</h2>
-      <p>Add your content here. It will automatically adjust for mobile screens.</p>
+      <h2>Why Adopt?</h2>
+      <p>Adopting a pet saves lives and brings joy to your home. Our animals are vetted, vaccinated, and ready to become part of your family. Experience the unconditional love that only a pet can provide.</p>
+    </div>
+
+    <div class="card">
+      <h2>Our Mission</h2>
+      <p>At Pup Palace, we believe every animal deserves a chance at happiness. We're are commited to match your dog with yoy or have an informative experince!</p>
     </div>
   </div>
 
   <footer>
-    <p>&copy; 2026 My Website</p>
+    <p>&copy; 2026 Pup Palace Adoption Center. Made with ❤️ for pets everywhere.</p>
   </footer>
-
+  <script src="scripts.js"></script>
 </body>
 </html>

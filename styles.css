@@ -1,0 +1,301 @@
+/* might have to make the colors less blue while it may be my favorite color and alll, but i dont think i see many blue websites or often..maybe more of a feel good color wil do better? */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #fef7e0;
+  color: #5d4e37;
+}
+
+header {
+  background: linear-gradient(135deg, #b4b3ff, #bac1ff);
+  color: #5d4e37;
+  padding: 2rem 1rem;
+  text-align: center;
+  border-bottom: 3px solid #bae0ff;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #baffc9;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav a {
+  color: #5d4e37;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #a8e6cf;
+}
+
+.container {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #fff;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: 2px solid #bad8ff;
+}
+
+.card h2 {
+  color: #b3d4ff;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.cta-button,
+.adopt-button,
+.submit-button {
+  display: inline-block;
+  background: #b3c5ff;
+  color: #5d4e37;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover,
+.adopt-button:hover,
+.submit-button:hover {
+  background: #86b5e0;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(135deg, #baffc9, #bae3ff);
+  color: #5d4e37;
+  margin-top: 2rem;
+  border-top: 3px solid #bae0ff;
+}
+
+.pets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pet-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: 2px solid #bad8ff;
+  transition: transform 0.3s;
+}
+
+.pet-card:hover {
+  transform: translateY(-5px);
+}
+
+.pet-card h3 {
+  color: #b3d4ff;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.pet-info {
+  margin-bottom: 1rem;
+}
+
+.pet-info p {
+  margin-bottom: 0.5rem;
+}
+
+.pet-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.filter-section {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border: 2px solid #bad8ff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.filter-btn {
+  background: #baffc9;
+  color: #5d4e37;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background: #86b5e0;
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.team-member,
+.contact-item,
+.hours {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.team-member {
+  text-align: center;
+  flex: 1 1 200px;
+  max-width: 200px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-item h3,
+.hours h4 {
+  color: #5d4e37;
+  margin-bottom: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #5d4e37;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #bad8ff;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fef7e0;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.process-steps {
+  counter-reset: step-counter;
+}
+
+.step {
+  counter-increment: step-counter;
+  margin-bottom: 2rem;
+  padding-left: 3rem;
+  position: relative;
+}
+
+.step::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #b3c5ff;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.step h3 {
+  color: #5d4e37;
+  margin-bottom: 0.5rem;
+}
+
+.requirements {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.requirements ul {
+  margin-left: 1rem;
+}
+
+@media (min-width: 600px) {
+  nav {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+}
