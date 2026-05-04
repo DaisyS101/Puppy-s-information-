@@ -1,23 +1,23 @@
-/* might have to make the colors less blue while it may be my favorite color and alll, but i dont think i see many blue websites or often..maybe more of a feel good color wil do better? */
+/* Cozy brown color palette for the site */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Georgia', 'Palatino Linotype', 'Book Antiqua', serif;
 }
 
 body {
-  line-height: 1.6;
-  background-color: #fef7e0;
-  color: #5d4e37;
+  line-height: 1.8;
+  background-color: #f3e4d5;
+  color: #4a2f1a;
 }
 
 header {
-  background: linear-gradient(135deg, #b4b3ff, #bac1ff);
-  color: #5d4e37;
+  background: linear-gradient(135deg, #8c5f3d, #caa78a);
+  color: #3d2718;
   padding: 2rem 1rem;
   text-align: center;
-  border-bottom: 3px solid #bae0ff;
+  border-bottom: 3px solid #bb8a5a;
 }
 
 header h1 {
@@ -28,13 +28,13 @@ header h1 {
 nav {
   display: flex;
   justify-content: space-around;
-  background: #baffc9;
+  background: #c9a07d;
   padding: 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.12);
 }
 
 nav a {
-  color: #5d4e37;
+  color: #3d2718;
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: bold;
@@ -44,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #a8e6cf;
+  background-color: #b28766;
 }
 
 .container {
@@ -53,17 +53,25 @@ nav a:hover {
   margin: 0 auto;
 }
 
+.card,
+.pet-card,
+.filter-section,
+.team-member,
+.contact-item,
+.hours {
+  background: #fff2ea;
+}
+
 .card {
-  background: #fff;
   padding: 2rem;
   margin-bottom: 2rem;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border: 2px solid #bad8ff;
+  border: 2px solid #d6b29a;
 }
 
 .card h2 {
-  color: #b3d4ff;
+  color: #7f5134;
   margin-bottom: 1rem;
   font-size: 1.8rem;
 }
@@ -80,10 +88,11 @@ nav a:hover {
 
 .cta-button,
 .adopt-button,
-.submit-button {
+.submit-button,
+.filter-btn {
   display: inline-block;
-  background: #b3c5ff;
-  color: #5d4e37;
+  background: #b07b53;
+  color: #fff;
   padding: 1rem 2rem;
   text-decoration: none;
   border-radius: 25px;
@@ -93,19 +102,25 @@ nav a:hover {
   cursor: pointer;
 }
 
+.filter-btn {
+  padding: 0.5rem 1rem;
+}
+
 .cta-button:hover,
 .adopt-button:hover,
-.submit-button:hover {
-  background: #86b5e0;
+.submit-button:hover,
+.filter-btn:hover,
+.filter-btn.active {
+  background: #8f5b37;
 }
 
 footer {
   text-align: center;
   padding: 2rem;
-  background: linear-gradient(135deg, #baffc9, #bae3ff);
-  color: #5d4e37;
+  background: linear-gradient(135deg, #c9a07d, #8c5f3d);
+  color: #3d2718;
   margin-top: 2rem;
-  border-top: 3px solid #bae0ff;
+  border-top: 3px solid #b07b53;
 }
 
 .pets-grid {
@@ -116,11 +131,10 @@ footer {
 }
 
 .pet-card {
-  background: #fff;
   padding: 1.5rem;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border: 2px solid #bad8ff;
+  border: 2px solid #d6b29a;
   transition: transform 0.3s;
 }
 
@@ -129,7 +143,7 @@ footer {
 }
 
 .pet-card h3 {
-  color: #b3d4ff;
+  color: #7f5134;
   margin-bottom: 0.5rem;
   font-size: 1.5rem;
 }
@@ -151,11 +165,10 @@ footer {
 }
 
 .filter-section {
-  background: #fff;
   padding: 1.5rem;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  border: 2px solid #bad8ff;
+  border: 2px solid #d6b29a;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -169,19 +182,7 @@ footer {
 }
 
 .filter-btn {
-  background: #baffc9;
-  color: #5d4e37;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
-
-.filter-btn:hover,
-.filter-btn.active {
-  background: #86b5e0;
+  color: #fff;
 }
 
 .team {
@@ -194,7 +195,6 @@ footer {
 .team-member,
 .contact-item,
 .hours {
-  background: #f9f9f9;
   padding: 1rem;
   border-radius: 10px;
 }
@@ -214,7 +214,7 @@ footer {
 
 .contact-item h3,
 .hours h4 {
-  color: #5d4e37;
+  color: #4a2f1a;
   margin-bottom: 0.5rem;
 }
 

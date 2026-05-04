@@ -1,16 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Available Dog Breeds - Pup Palace Adoption Center</title>
   <link rel="stylesheet" href="styles.css">
-  <!-- This is a note for developers 
-   note i need to find better picturers since the current ones cant be seen! . note to self add more info about the doggos. maybe add a secret page for a nintendog? nah. i dont think people would undestand..or at the least not a good idea-->
 </head>
-
 <body>
-
   <header>
     <h1>🐾 Pup Palace Adoption Center 🐾</h1>
     <p>Finding forever homes for furry friends</p>
@@ -25,20 +21,20 @@
   </nav>
 
   <div class="container">
-    <div class="filter-section">
+    <section class="filter-section">
       <h2>Find Your Perfect Dog Breed</h2>
-      <p>Browse our available dog breeds waiting for adoption</p>
+      <p>Browse our available dog breeds waiting for adoption.</p>
       <div class="filter-buttons">
         <button class="filter-btn active" onclick="filterPets('all', event)">All Breeds</button>
         <button class="filter-btn" onclick="filterPets('small', event)">Small Breeds</button>
         <button class="filter-btn" onclick="filterPets('medium', event)">Medium Breeds</button>
         <button class="filter-btn" onclick="filterPets('large', event)">Large Breeds</button>
       </div>
-    </div>
+    </section>
 
     <div class="pets-grid">
-      <div class="pet-card" data-type="medium">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Golden_Retriever_9.jpg/320px-Golden_Retriever_9.jpg" alt="Golden Retriever" class="pet-image">
+      <article class="pet-card" data-type="medium">
+        <img src="Photos/Golden Retriever Puppy.jpg" alt="Golden Retriever" class="pet-image">
         <h3>Golden Retriever 🐕</h3>
         <div class="pet-info">
           <p><strong>Size:</strong> Medium to Large</p>
@@ -47,10 +43,10 @@
           <p><strong>Ideal for:</strong> Families, active owners</p>
         </div>
         <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
+      </article>
 
-      <div class="pet-card" data-type="medium">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Labrador_on_Quantock_%282175262184%29.jpg/320px-Labrador_on_Quantock_%282175262184%29.jpg" alt="Labrador Retriever" class="pet-image">
+      <article class="pet-card" data-type="medium">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Labrador_on_Quantock_%282175262184%29.jpg" alt="Labrador Retriever" class="pet-image">
         <h3>Labrador Retriever 🐕</h3>
         <div class="pet-info">
           <p><strong>Size:</strong> Medium to Large</p>
@@ -59,10 +55,10 @@
           <p><strong>Ideal for:</strong> Families, water lovers</p>
         </div>
         <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
+      </article>
 
-      <div class="pet-card" data-type="large">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/320px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg" alt="German Shepherd" class="pet-image">
+      <article class="pet-card" data-type="large">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg" alt="German Shepherd" class="pet-image">
         <h3>German Shepherd 🐕</h3>
         <div class="pet-info">
           <p><strong>Size:</strong> Large</p>
@@ -71,87 +67,13 @@
           <p><strong>Ideal for:</strong> Active families, working roles</p>
         </div>
         <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
+      </article>
 
-      <div class="pet-card" data-type="medium">
-  `/* This is a note in the stylesheet */`
 
-- In JavaScript:
-  `// Single-line note`
-  `/* Multi-line note */`
 
-Example for your project:
-- `<!-- Available dog breeds section -->`
-- `/* shared page styles */`
-- `// filter button action`
-</head>
 
-<body>
-
-  <header>
-    <h1>🐾 Pup Palace Adoption Center 🐾</h1>
-    <p>Finding forever homes for furry friends</p>
-  </header>
-
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About Us</a>
-    <a href="pets.html">Available Dog Breeds</a>
-    <a href="process.html">Adoption Process</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <div class="container">
-    <div class="filter-section">
-      <h2>Find Your Perfect Dog Breed</h2>
-      <p>Browse our available dog breeds waiting for adoption</p>
-      <div class="filter-buttons">
-        <button class="filter-btn active" onclick="filterPets('all', event)">All Breeds</button>
-        <button class="filter-btn" onclick="filterPets('small', event)">Small Breeds</button>
-        <button class="filter-btn" onclick="filterPets('medium', event)">Medium Breeds</button>
-        <button class="filter-btn" onclick="filterPets('large', event)">Large Breeds</button>
-      </div>
-    </div>
-
-    <div class="pets-grid">
-      <div class="pet-card" data-type="medium">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Golden_Retriever_9.jpg/320px-Golden_Retriever_9.jpg" alt="Golden Retriever" class="pet-image">
-        <h3>Golden Retriever 🐕</h3>
-        <div class="pet-info">
-          <p><strong>Size:</strong> Medium to Large</p>
-          <p><strong>Temperament:</strong> Friendly, intelligent, devoted</p>
-          <p><strong>Energy Level:</strong> High</p>
-          <p><strong>Ideal for:</strong> Families, active owners</p>
-        </div>
-        <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
-
-      <div class="pet-card" data-type="medium">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Labrador_on_Quantock_%282175262184%29.jpg/320px-Labrador_on_Quantock_%282175262184%29.jpg" alt="Labrador Retriever" class="pet-image">
-        <h3>Labrador Retriever 🐕</h3>
-        <div class="pet-info">
-          <p><strong>Size:</strong> Medium to Large</p>
-          <p><strong>Temperament:</strong> Friendly, outgoing, high-spirited</p>
-          <p><strong>Energy Level:</strong> High</p>
-          <p><strong>Ideal for:</strong> Families, water lovers</p>
-        </div>
-        <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
-
-      <div class="pet-card" data-type="large">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/320px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg" alt="German Shepherd" class="pet-image">
-        <h3>German Shepherd 🐕</h3>
-        <div class="pet-info">
-          <p><strong>Size:</strong> Large</p>
-          <p><strong>Temperament:</strong> Loyal, courageous, alert</p>
-          <p><strong>Energy Level:</strong> High</p>
-          <p><strong>Ideal for:</strong> Active families, working roles</p>
-        </div>
-        <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
-
-      <div class="pet-card" data-type="medium">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Beagle_heterochromia.jpg/320px-Beagle_heterochromia.jpg" alt="Beagle" class="pet-image">
+      <article class="pet-card" data-type="medium">
+        <img src="Photos/Beagle Puppy.jpeg" alt="Beagle" class="pet-image">
         <h3>Beagle 🐕</h3>
         <div class="pet-info">
           <p><strong>Size:</strong> Medium</p>
@@ -160,10 +82,12 @@ Example for your project:
           <p><strong>Ideal for:</strong> Families, scent work</p>
         </div>
         <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
+      </article>
 
-      <div class="pet-card" data-type="small">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/American_Eskimo_Dog.jpg/320px-American_Eskimo_Dog.jpg" alt="American Eskimo Dog" class="pet-image">
+
+
+      <article class="pet-card" data-type="small">
+        <img src="Photos/Amereican Esmiko Puppy.jpg" alt="American Eskimo Dog" class="pet-image">
         <h3>American Eskimo Dog 🐕</h3>
         <div class="pet-info">
           <p><strong>Size:</strong> Small to Medium</p>
@@ -172,10 +96,10 @@ Example for your project:
           <p><strong>Ideal for:</strong> Families, apartments</p>
         </div>
         <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
+      </article>
 
-      <div class="pet-card" data-type="medium">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Standard_poodle.jpg/320px-Standard_poodle.jpg" alt="Poodle" class="pet-image">
+      <article class="pet-card" data-type="medium">
+        <img src="Photos/Poodle Pup.jpg" alt="Poodle" class="pet-image">
         <h3>Poodle 🐕</h3>
         <div class="pet-info">
           <p><strong>Size:</strong> Small to Large (varies)</p>
@@ -184,10 +108,10 @@ Example for your project:
           <p><strong>Ideal for:</strong> Active owners, hypoallergenic</p>
         </div>
         <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
+      </article>
 
-      <div class="pet-card" data-type="large">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Great_Dane_031.jpg/320px-Great_Dane_031.jpg" alt="Great Dane" class="pet-image">
+      <article class="pet-card" data-type="large">
+        <img src="Photos/Great Dane Puppy.jpg" alt="Great Dane" class="pet-image">
         <h3>Great Dane 🐕</h3>
         <div class="pet-info">
           <p><strong>Size:</strong> Large</p>
@@ -196,10 +120,10 @@ Example for your project:
           <p><strong>Ideal for:</strong> Large homes, gentle giants</p>
         </div>
         <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
+      </article>
 
-      <div class="pet-card" data-type="small">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Chihuahua_%28cropped%29.jpg/320px-Chihuahua_%28cropped%29.jpg" alt="Chihuahua" class="pet-image">
+      <article class="pet-card" data-type="small">
+        <img src="Photos/Chihuahua Puppy.jpg" alt="Chihuahua" class="pet-image">
         <h3>Chihuahua 🐕</h3>
         <div class="pet-info">
           <p><strong>Size:</strong> Small</p>
@@ -208,10 +132,13 @@ Example for your project:
           <p><strong>Ideal for:</strong> Singles, apartments</p>
         </div>
         <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
+      </article>
 
-      <div class="pet-card" data-type="medium">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Border_Collie_600.jpg/320px-Border_Collie_600.jpg" alt="Border Collie" class="pet-image">
+
+
+
+      <article class="pet-card" data-type="medium">
+        <img src="Photos/Border Collie Puppy.jpg" alt="Border Collie" class="pet-image">
         <h3>Border Collie 🐕</h3>
         <div class="pet-info">
           <p><strong>Size:</strong> Medium</p>
@@ -220,10 +147,15 @@ Example for your project:
           <p><strong>Ideal for:</strong> Active owners, working dogs</p>
         </div>
         <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
+      </article>
 
-      <div class="pet-card" data-type="large">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Bernese_Mountain_Dog.jpg/320px-Bernese_Mountain_Dog.jpg" alt="Bernese Mountain Dog" class="pet-image">
+
+
+
+
+
+      <article class="pet-card" data-type="large">
+        <img src="Photos/Bernese Mountain Dog Puppy.jpg" alt="Bernese Mountain Dog" class="pet-image">
         <h3>Bernese Mountain Dog 🐕</h3>
         <div class="pet-info">
           <p><strong>Size:</strong> Large</p>
@@ -232,12 +164,12 @@ Example for your project:
           <p><strong>Ideal for:</strong> Families, farm life</p>
         </div>
         <a href="process.html" class="adopt-button">Learn to Adopt</a>
-      </div>
+      </article>
     </div>
   </div>
 
   <footer>
-    <p>&copy; 2026 Pup Palace Adoption Center. Made with ❤️ for pets everywhere.</p>
+    <p>&copy; 2026 Pup Palace Adoption Center. Made with ❤️ for pups any and all!</p>
   </footer>
   <script src="scripts.js"></script>
 </body>
